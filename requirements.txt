@@ -1,0 +1,6 @@
+prometheus_client
+Flask
+supervisor
+gunicorn
+pyyaml
+fire

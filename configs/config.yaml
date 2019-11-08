@@ -1,0 +1,11 @@
+metrics_00:
+  description: test metrics 00
+  labels:
+    - a
+    - b
+metrics_01:
+  description: test metrics 01
+  labels:
+    - c
+    - d
+    - e
