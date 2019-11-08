@@ -1,7 +1,7 @@
-###### Description
+##### Description
 prometheus Gauge type metrics exporter template, written in python+flask+prometheus client
 
-###### Develop Steps
+##### Develop Steps
 1. Define metrics
 2. Write cal metrics functions
 3. Generate supervisor configuration file
