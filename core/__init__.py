@@ -19,7 +19,7 @@ def get_logger(file_name, log_name, log_level=logging.DEBUG):
 
 
 from core.core_metric import metrics_registry
-from core.metrics_instance import m_instance
+from core.custom_metric import m_instance
 
 __all__ = [
     "get_logger",

@@ -3,6 +3,6 @@ prometheus Gauge type metrics exporter template, written in python+flask+prometh
 
 ##### Develop Steps
 1. Modify configs/config.yaml
-1. Define metrics in core/custom_metric.py, just rewrite metrics_values function
-2. Initialize metric instance in core/metrics_instance.py
-3. Generate supervisor configuration file
+2. Define metrics in core/custom_metric.py, just rewrite metrics_values function, and 
+Initialize metric instance named m_instance
+4. Generate supervisor configuration file

@@ -15,3 +15,4 @@ class TestGaugeMetric(GaugeMetrics):
         else:
             return [(("1", "2", "3"), 1)]
 
+m_instance = TestGaugeMetric()
