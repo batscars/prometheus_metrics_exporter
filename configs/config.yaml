@@ -1,11 +1,13 @@
-metrics_00:
-  description: test metrics 00
-  labels:
-    - a
-    - b
-metrics_01:
-  description: test metrics 01
-  labels:
-    - c
-    - d
-    - e
+name: test-exporter
+metrics:
+  - name: metrics_00
+    description: test metrics 00
+    labels:
+      - a
+      - b
+  - name: metrics_01
+    description: test metrics 01
+    labels:
+      - c
+      - d
+      - e
