@@ -34,6 +34,8 @@ class GaugeMetrics(object):
         for k, v in self.metrics.items():
             t0 = time.time()
             for item in self.metrics_values(k):
+                if not item:
+                    continue
                 labels, value = item[0], item[1]
                 v.labels(*labels).set(value)
                 self.logger.info("metric:{}, labels:{}, value:{}".format(k, labels, value))
